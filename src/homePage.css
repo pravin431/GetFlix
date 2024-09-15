@@ -1,0 +1,40 @@
+/* homePage.css */
+.homepage {
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .page-title {
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  .movies-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 movie posters per row */
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  @media (max-width: 1200px) {
+    .movies-grid {
+      grid-template-columns: repeat(3, 1fr); /* 3 movie posters per row for medium screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .movies-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 movie posters per row for tablet size */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .movies-grid {
+      grid-template-columns: 1fr; /* 1 movie poster per row for small mobile screens */
+    }
+  }
+  
+  

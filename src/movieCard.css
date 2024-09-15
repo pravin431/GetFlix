@@ -1,0 +1,27 @@
+/* movieCard.css */ 
+.movie-card {
+  background-color: #333; /* Dark background for movie card */
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+  width: 100%; /* Make movie cards responsive */
+  max-width: 250px;
+}
+
+.movie-poster {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.movie-title {
+  font-size: 1.2em;
+  margin: 10px 0 5px;
+  color: #fff;
+}
+
+.movie-rating {
+  font-size: 1em;
+  color: #00bfff;
+}
